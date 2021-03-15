@@ -1,4 +1,4 @@
-class HomeController < ApplicationController
+class ArticlesController < ApplicationController
   def index
     @article = Article.first
   end
