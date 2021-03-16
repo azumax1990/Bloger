@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   
   root to: "articles#index"
   
-  resources :articles, only: [:index, :show]
+  resources :articles, only: [:new, :show, :create]
   
 end
