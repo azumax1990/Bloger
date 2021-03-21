@@ -27,6 +27,7 @@ gem 'hamlit'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'devise'
+gem 'aws-sdk-s3', require: false
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -37,7 +38,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'pry-byebug'
-  
+  gem 'dotenv-rails'
 end
 
 group :development do
